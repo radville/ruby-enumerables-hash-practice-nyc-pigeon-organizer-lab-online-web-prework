@@ -10,7 +10,8 @@ def nyc_pigeon_organizer(data)
         else
           hash[name] = {color: [], gender: [], lives: []}
         end
-        # hash[name][el[0]] += inner_el[0]
+        if inner_el[1].include?(name)
+          hash[name][inner_el[0]] = 
                           binding.pry
       end
     end
