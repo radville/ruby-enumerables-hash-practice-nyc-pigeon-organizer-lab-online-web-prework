@@ -6,7 +6,7 @@ def nyc_pigeon_organizer(data)
     keys_array = el[1].keys.each
     el[1].each do |inner_el|
       inner_el[1].each do |name|
-        if hash[name]
+        if hash.keys.include?(name)
           hash[name] = {}
                 binding.pry
         end
