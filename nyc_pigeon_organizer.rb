@@ -12,7 +12,7 @@ def nyc_pigeon_organizer(data)
         end
         if inner_el[1].include?(name)
           hash[name][el[0]].push(inner_el[0].to_s)
-                          binding.pry
+                          # binding.pry
         end
       end
     end
