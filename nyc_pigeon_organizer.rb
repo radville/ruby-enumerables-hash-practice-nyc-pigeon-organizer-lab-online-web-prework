@@ -11,6 +11,7 @@ def nyc_pigeon_organizer(data)
           hash[name] = {}
                 binding.pry
         end
+        hash[name][]
       end
     end
   end
