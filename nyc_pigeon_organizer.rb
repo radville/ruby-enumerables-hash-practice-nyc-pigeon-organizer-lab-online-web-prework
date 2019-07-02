@@ -7,6 +7,7 @@ def nyc_pigeon_organizer(data)
     el[1].each do |inner_el|
       inner_el[1].each do |names|
       binding.pry
+      end
     end
   end
   hash
