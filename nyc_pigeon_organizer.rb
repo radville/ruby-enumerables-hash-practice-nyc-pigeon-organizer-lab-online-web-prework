@@ -8,7 +8,7 @@ def nyc_pigeon_organizer(data)
       inner_el[1].each do |name|
         if hash.keys.include?(name)
         else
-          hash[name] = {}
+          hash[name] = {color: [], gender: [], lives: []}
         end
         # hash[name][el[0]] += inner_el[0]
 
