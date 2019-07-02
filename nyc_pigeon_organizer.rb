@@ -1,6 +1,7 @@
 def nyc_pigeon_organizer(data)
   hash = Hash.new(0)
   data.each do |el|
-  binding.pry
+    el
+    binding.pry
   end
 end
