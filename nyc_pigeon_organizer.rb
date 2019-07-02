@@ -5,6 +5,7 @@ def nyc_pigeon_organizer(data)
   data.each do |el|
     keys_array = el[1].keys.each
     el[1].each do |inner_el|
+    
     binding.pry
     end
   end
