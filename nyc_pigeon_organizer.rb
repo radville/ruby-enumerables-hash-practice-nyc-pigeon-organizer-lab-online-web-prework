@@ -10,7 +10,7 @@ def nyc_pigeon_organizer(data)
         else
           hash[name] = {}
         end
-        hash[name][el[0]] += inner_el[0]
+        # hash[name][el[0]] += inner_el[0]
                         binding.pry
 
       end
