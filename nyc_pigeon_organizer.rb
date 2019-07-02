@@ -9,9 +9,10 @@ def nyc_pigeon_organizer(data)
         if hash.keys.include?(name)
         else
           hash[name] = {}
-                binding.pry
         end
         hash[name][el[0]] += inner_el[0]
+                        binding.pry
+
       end
     end
   end
