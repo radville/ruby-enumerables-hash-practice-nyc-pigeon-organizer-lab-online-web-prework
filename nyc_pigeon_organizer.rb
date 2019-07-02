@@ -11,11 +11,9 @@ def nyc_pigeon_organizer(data)
           hash[name] = {color: [], gender: [], lives: []}
         end
         # hash[name][el[0]] += inner_el[0]
-
+                          binding.pry
       end
     end
   end
-                          binding.pry
-
   hash
 end
